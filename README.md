@@ -8,8 +8,9 @@ make
 ```
 
 ```bash
-curl -X POST http://127.0.0.1:8000 \
--u user:pass \
--H "Content-Type: application/json" \
--d '{"test":123}'
+telnet 127.0.0.1 8000
+```
+
+```bash
+telnet 127.0.0.1 8001
 ```
